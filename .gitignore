@@ -2,3 +2,4 @@ node_modules/
 GUIDE_INSTALLATION.md
 .vercel
 build/
+.gitignore
