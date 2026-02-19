@@ -2,7 +2,7 @@
 
 Portfolio personnel développé en React avec une esthétique unique mêlant bleu, violet, blanc et noir.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 - Design moderne et unique avec animations fluides
 - Navigation intuitive entre les sections
@@ -11,12 +11,12 @@ Portfolio personnel développé en React avec une esthétique unique mêlant ble
 - Effets visuels et interactions sophistiqués
 - Thème sombre avec accents violet/bleu
 
-## 📋 Prérequis
+## Prérequis
 
 - Node.js (version 14 ou supérieure)
 - npm ou yarn
 
-## 🔧 Installation
+## Installation
 
 1. **Extraire les fichiers** dans un dossier de votre choix
 
@@ -34,20 +34,32 @@ npm start
 
 5. Le portfolio s'ouvrira automatiquement dans votre navigateur à l'adresse : `http://localhost:3000`
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
-portfolio/
+portfolio-fresnel-kengne/
 ├── public/
-│   └── index.html          # Page HTML principale
+│   ├── index.html
+│   ├── favicon.svg
+│   └── photo-profile.jpg (optionnel)
 ├── src/
-│   ├── Portfolio.jsx       # Composant principal du portfolio
-│   └── index.js           # Point d'entrée de l'application
-├── package.json           # Dépendances et scripts
-└── README.md             # Ce fichier
+│   ├── components/              ← NOUVEAU DOSSIER
+│   │   ├── Navbar.jsx          ← Navigation
+│   │   ├── Hero.jsx            ← Section accueil
+│   │   ├── Projects.jsx        ← Projets académiques
+│   │   ├── Experiences.jsx     ← Expériences pro
+│   │   ├── Formations.jsx      ← Formations + Certifications
+│   │   ├── Competences.jsx     ← Compétences + Centres d'intérêt
+│   │   ├── Contact.jsx         ← Section contact
+│   │   └── Footer.jsx          ← Pied de page
+│   ├── Portfolio.jsx           ← Fichier principal (Portfolio-Modulaire.jsx renommé)
+│   ├── styles.css              ← Tous les styles CSS
+│   └── index.js                ← Point d'entrée (ne change pas)
+├── package.json
+└── README.md
 ```
 
-## 🎨 Personnalisation
+## Personnalisation
 
 ### Couleurs
 Les couleurs principales sont définies dans les variables CSS au début du composant Portfolio.jsx :
@@ -64,7 +76,7 @@ Vous pouvez modifier le contenu directement dans Portfolio.jsx :
 - Compétences : objet `competences`
 - Intérêts : tableau `interets`
 
-## 🌐 Déploiement
+## Déploiement
 
 ### Build de Production
 Pour créer une version optimisée pour la production :
@@ -81,14 +93,14 @@ Vous pouvez déployer ce portfolio sur :
 - **GitHub Pages** : Configurez dans les paramètres du repository
 - **Firebase Hosting** : `firebase deploy`
 
-## 📱 Responsive
+## Responsive
 
 Le portfolio est entièrement responsive et s'adapte aux écrans :
 - Desktop (> 968px)
 - Tablette (640px - 968px)
 - Mobile (< 640px)
 
-## 🎯 Sections
+## Sections
 
 1. **Accueil** : Présentation avec statistiques et informations de contact
 2. **Expériences** : Parcours professionnel avec détails
@@ -97,20 +109,20 @@ Le portfolio est entièrement responsive et s'adapte aux écrans :
 5. **Intérêts** : Centres d'intérêt personnels
 6. **Contact** : Formulaire et informations de contact
 
-## 💡 Technologies Utilisées
+##  Technologies Utilisées
 
 - React 18
 - Lucide React (icônes)
 - CSS moderne (Grid, Flexbox, animations)
 - Google Fonts (Outfit, JetBrains Mono)
 
-## 📞 Contact
+##  Contact
 
 - Email: fresnel.kengne_tueguem@mines-albi.fr
 - Téléphone: +33 7 82 17 06 09
 - LinkedIn: [fresnel-kengne-339647265](https://www.linkedin.com/in/fresnel-kengne-339647265)
 - GitHub: [@237Fresnel](https://github.com/237Fresnel)
 
-## 📄 Licence
+##  Licence
 
 © 2026 Fresnel Grace Kengne - Tous droits réservés
