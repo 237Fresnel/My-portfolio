@@ -17,7 +17,7 @@ const Formations = () => {
       school: "École Nationale Supérieure Polytechnique",
       degree: "École d'ingénieur généraliste",
       location: "Yaoundé, Cameroun",
-      period: "2023 – 2027",
+      period: "2023 – 2025",
       focus: "Génie Informatique",
       skills: ["Software Design", "IA", "Bases de données", "Systèmes et réseaux"],
       courses: ["Programmation web", "POO", "Base de données relationnelles", "Réseaux informatiques", "Tests logiciels"],
