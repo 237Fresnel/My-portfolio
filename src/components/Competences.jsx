@@ -34,7 +34,7 @@ const Competences = () => {
       icon: "🎵", 
       text: "Musique",
       description: "La musique comme source d'inspiration et de créativité.",
-      link: "https://spotify.com/placeholder" 
+      /*link: "https://spotify.com/placeholder" */
     },
     /*{ 
       icon: "📚", 

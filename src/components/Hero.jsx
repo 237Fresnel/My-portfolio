@@ -6,15 +6,15 @@ const Hero = () => {
     <section id="accueil" className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Fresnel Grace Kengne</h1>
+          <h1>KENGNE TUEGUEM Fresnel Grace</h1>
           <div className="subtitle">Étudiante Ingénieure Data</div>
           <p className="description">
 Passionnée par l’analyse de données, la modélisation prédictive et la visualisation, je souhaite contribuer à des projets innovants guidés par la donnée. Etudiante en Ingénierie de la Donnée de l’IMT Mines Albi, je suis ouverte à approfondir mes compétences dans tout domaine qui me sera confié et à relever de nouveaux défis avec rigueur et curiosité.          </p>
           
           <div className="hero-stats">
             <div className="stat-item">
-              <div className="stat-number">1</div>
-              <div className="stat-label">Projet Data</div>
+              <div className="stat-number">2</div>
+              <div className="stat-label">Projets Data</div>
             </div>
             <div className="stat-item">
               <div className="stat-number">3</div>
@@ -29,13 +29,20 @@ Passionnée par l’analyse de données, la modélisation prédictive et la visu
 
         <div className="hero-visual">
           <div className="profile-card">
-            <div className="profile-photo-container">
-              {/* OPTION 1: Si vous avez une photo, décommentez la ligne ci-dessous et commentez le placeholder */}
-              {/* <img src="/photo-profile.jpg" alt="Fresnel Grace Kengne" className="profile-photo" /> */}
-              
-              {/* OPTION 2: Placeholder avec initiales (actuel) */}
-              <div className="profile-photo-placeholder">FGK</div>
-            </div>
+            <div className="profile-photo-wrapper">
+  <div className="profile-photo-container">
+    {/* OPTION 1: Si vous avez une photo, décommentez la ligne ci-dessous et commentez le placeholder */}
+    <img src="/photo-profile.jpeg" alt="KENGNE TUEGUEM Fresnel Grace" className="profile-photo" /> 
+    
+    {/* OPTION 2: Placeholder avec initiales (actuel) */}
+    {/* <div className="profile-photo-placeholder">FGK</div> */}
+  </div>
+  
+  {/* Cercles animés */}
+  <div className="photo-ring photo-ring-1"></div>
+  <div className="photo-ring photo-ring-2"></div>
+  <div className="photo-ring photo-ring-3"></div>
+</div>
 
             <div className="contact-info">
               <div className="contact-item">
