@@ -1,8 +1,21 @@
-import React from 'react';
-import { Camera, Calendar, TrendingUp, Database, Brain, BarChart3, ExternalLink,Award } from 'lucide-react';
+import React, { useState } from 'react';
+import { Camera, Calendar, TrendingUp, Database, Brain, BarChart3, ExternalLink, Award } from 'lucide-react';
 
 const Projects = () => {
+  const [filter, setFilter] = useState('tous');
   const projets = [
+    {
+      title: "Projet de Big data",
+      period: "2026",
+      description: "Plateforme Big Data d'analyse de transport urbain simulant 500 000 trajets sur 5 villes françaises, combinant MongoDB, Cassandra et Apache Spark pour le stockage et l'analyse distribuée, exposée via une API FastAPI et visualisée sur un dashboard React — conteneurisée avec Docker en local et déployée gratuitement sur Atlas, Render et Vercel.",
+      technologies: [ "MongoDB", "Cassandra", "FastAPI", "Apache Spark","Python", "Docker"],
+      status: "Terminé",
+      icon: Database,
+      color: "#3c0078",
+      link: "https://urban-transport-platform.vercel.app/" ,
+      category: "top",
+      image: "/big-data.png"
+    },
     {
       title: "Projet d'analyse de données",
       period: "2026",
@@ -11,7 +24,8 @@ const Projects = () => {
       status: "Terminé",
       icon: Award,
       color: "#4acff4",
-      link: "https://colab.research.google.com/drive/18fPXEYYJ8aaLV6Lg93rYb8c9sGMEGjaI?authuser=3" 
+      link: "https://colab.research.google.com/drive/18fPXEYYJ8aaLV6Lg93rYb8c9sGMEGjaI?authuser=3" ,
+      category: "academique"
     },
     {
       title: "Projet de Visualisation de Données",
@@ -21,7 +35,8 @@ const Projects = () => {
       status: "En cours",
       icon: BarChart3,
       color: "#10b981",
-      link: "https://app.powerbi.com/links/bxPCEtYpDU?ctid=c52528b4-09d5-422b-bde4-32b5b0271115&pbi_source=linkShare" 
+      link: "https://app.powerbi.com/links/bxPCEtYpDU?ctid=c52528b4-09d5-422b-bde4-32b5b0271115&pbi_source=linkShare",
+      category: "personnel" 
     },
     {
       title: "Système d'Hypervision avec 360Visio",
@@ -31,7 +46,8 @@ const Projects = () => {
       status: "Terminé",
       icon: TrendingUp,
       color: "#8b5cf6",
-      link: "https://www.figma.com/make/XPzQAWdRj9n6sxLSzWOUcd/LVL-1---FigmaMake?p=f" 
+      link: "https://www.figma.com/make/XPzQAWdRj9n6sxLSzWOUcd/LVL-1---FigmaMake?p=f",
+      category: "academique" 
     },
     {
       title: "VSA - Visual Surveillance Algorithm",
@@ -41,7 +57,8 @@ const Projects = () => {
       status: "Terminé",
       icon: Camera,
       color: "#6366f1",
-      link: "" 
+      link: "",
+      category: "academique"
     },
     {
       title: "Modèle de Prédiction du Lupus",
@@ -51,9 +68,10 @@ const Projects = () => {
       status: "Terminé",
       icon: Brain,
       color: "#a78bfa",
-      link: "https://colab.research.google.com/drive/1FPA7KvlNZQ_RiDH3aIyTqbxggs0GXND5?authuser=1" 
+      link: "https://colab.research.google.com/drive/1FPA7KvlNZQ_RiDH3aIyTqbxggs0GXND5?authuser=1",
+      category: "academique" 
     },
-    {
+    /*{
       title: "Challenge Indabax - Data Exploration",
       period: "2025",
       description: "Nettoyage, exploration et visualisation de données pour un challenge académique. Préparation complète de datasets et création de visualisations interactives.",
@@ -61,20 +79,52 @@ const Projects = () => {
       status: "Terminé",
       icon: Database,
       color: "#4facfe",
-      link: "https://colab.research.google.com/drive/1M2LWsvhd3yHq8fgkHnHAWv8HrbyazWhv?authuser=1" 
-    }
+      link: "https://colab.research.google.com/drive/1M2LWsvhd3yHq8fgkHnHAWv8HrbyazWhv?authuser=1",
+      category: "academique",
+      image: "/projet1.png" 
+    }*/
   ];
 
   return (
-    <section id="projets" className="section">
-      <div className="section-container">
-        <div className="section-header">
-          <h2 className="section-title">Projets Académiques</h2>
-          <p className="section-subtitle">Projets data science et machine learning</p>
-        </div>
-        
-        <div className="projects-grid">
-          {projets.map((projet, index) => {
+  <section id="projets" className="section">
+    <div className="section-container">
+      <div className="section-header">
+        <h2 className="section-title">Projets Académiques</h2>
+        <p className="section-subtitle">Projets data science et machine learning</p>
+      </div>
+
+      {/* Filtres - NOUVEAU */}
+      <div className="project-filters">
+        <button 
+          className={`filter-btn ${filter === 'tous' ? 'filter-active' : ''}`}
+          onClick={() => setFilter('tous')}
+        >
+          Tous
+        </button>
+        <button 
+          className={`filter-btn ${filter === 'top' ? 'filter-active' : ''}`}
+          onClick={() => setFilter('top')}
+        >
+          Top
+        </button>
+        <button 
+          className={`filter-btn ${filter === 'academique' ? 'filter-active' : ''}`}
+          onClick={() => setFilter('academique')}
+        >
+          Académiques
+        </button>
+        <button 
+          className={`filter-btn ${filter === 'personnel' ? 'filter-active' : ''}`}
+          onClick={() => setFilter('personnel')}
+        >
+          Personnels
+        </button>
+      </div>
+      
+      <div className="projects-grid">
+        {projets
+          .filter(projet => filter === 'tous' || projet.category === filter)
+          .map((projet, index) => {
             const IconComponent = projet.icon;
             return (
               <a 

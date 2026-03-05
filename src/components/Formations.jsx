@@ -25,12 +25,12 @@ const Formations = () => {
     },
     {
       school: "Université de Yaoundé I",
-      degree: "Licence Mathématiques + DIPES I",
+      degree: "Licence Mathématiques",
       location: "Yaoundé, Cameroun",
-      period: "2021 – 2024",
-      focus: "Mathématiques et Enseignement Secondaire",
-      skills: ["Mathématiques", "Pédagogie"],
-      courses: ["Probabilités et statistiques", "Analyse", "Logique"],
+      period: "2020 – 2023",
+      focus: "Mathématiques",
+      skills: ["Mathématiques", "Rigueur", "Résolution de problèmes"],
+      courses: ["Probabilités et statistiques", "Analyse", "Logique", "Algèbre linéaire", "Topologie"],
       link: "https://facsciences.uy1.cm/le-departement-de-mathematiques/"
     },
     /*
@@ -103,25 +103,33 @@ const Formations = () => {
 
         {/* Certifications */}
         <div className="certifications-list">
-          <h3 style={{fontSize: '2rem', fontWeight: '700', textAlign: 'center', marginBottom: '2rem', color: 'var(--text-primary)', fontFamily: 'Space Grotesk, sans-serif'}}>
-            Certifications
-          </h3>
-          {certifications.map((cert, index) => {
-            const IconComponent = cert.icon;
-            return (
-              <div key={index} className="certification-item">
-                <div className="certification-icon">
-                  <IconComponent size={24} />
-                </div>
-                <a href={cert.link} target="_blank" rel="noopener noreferrer" className="certification-link-icon">
-                  <div className="certification-content">
-                    <div className="certification-title">{cert.title}</div>
-                    <div className="certification-year">{cert.year}</div>
-                  </div>
-                </a>
-              </div>
-            );
-          })}
+        <h3 style={{fontSize: '2rem', fontWeight: '700', textAlign: 'center', marginBottom: '2rem', color: 'var(--text-primary)', fontFamily: 'Space Grotesk, sans-serif'}}>
+          Certifications
+        </h3>
+        {certifications.map((cert, index) => {
+        const IconComponent = cert.icon;
+        return (
+        <a 
+        key={index} 
+        href={cert.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="certification-item"
+        style={{
+          textDecoration: 'none',
+          cursor: 'pointer'
+        }}
+        >
+        <div className="certification-icon">
+          <IconComponent size={24} />
+        </div>
+        <div className="certification-content">
+          <div className="certification-title">{cert.title}</div>
+          <div className="certification-year">{cert.year}</div>
+        </div>
+        </a>
+     );
+    })}
         </div>
       </div>
     </section>

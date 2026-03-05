@@ -20,9 +20,9 @@ const Portfolio = () => {
     <div className={`portfolio ${isDarkMode ? 'dark' : 'light'}`}>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Hero />
+      <Formations />
       <Projects />
       <Experiences />
-      <Formations />
       <Competences />
       <Contact />
       <Footer />

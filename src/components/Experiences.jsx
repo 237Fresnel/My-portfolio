@@ -4,14 +4,6 @@ import { Book, Award, Briefcase, Target, Users } from 'lucide-react';
 const Experiences = () => {
   const experiences = [
     {
-      title: "Secrétaire Générale Adjointe",
-      company: "ENSPY",
-      period: "2024 – 2025",
-      description: "Organisation, communication stratégique, gestion d'équipe et autonomie dans un environnement académique exigeant.",
-      tags: ["Leadership", "Communication", "Gestion d'équipe"],
-      icon: Users
-    },
-    {
       title: "Professeure de cours particuliers à domicile",
       company: "Complétude, Toulouse",
       period: "Depuis 10/2025",
@@ -20,17 +12,25 @@ const Experiences = () => {
       icon: Book
     },
     {
+      title: "Secrétaire Générale Adjointe",
+      company: "ENSPY",
+      period: "2024 – 2025",
+      description: "Organisation, communication stratégique, gestion d'équipe et autonomie dans un environnement académique exigeant.",
+      tags: ["Leadership", "Communication", "Gestion d'équipe"],
+      icon: Users
+    },
+    /*{
       title: "Stage Enseignement Mathématiques",
       company: "Lycée de Ngoa Ekélé, Yaoundé",
       period: "01/2024 – 03/2024",
       description: "Aide à l'enseignant de Mathématiques SIMO T. Christian dans ses classes : 6e 5, 4e All, Première A et Terminale C. Développement des compétences en pédagogie. Capacité à organiser et planifier des séances de travail, plus de 120 heures de cours.",
       tags: ["Mathématiques", "100h de cours", "Pédagogie"],
       icon: Award
-    },
+    },*/
     {
       title: "Stage Assistant Support Informatique & Opérations",
       company: "Maison DG, Yaoundé",
-      period: "07/2023 – 08/2023",
+      period: "07/2024 – 08/2024",
       description: "Découverte du fonctionnement global de l'entreprise et de son organisation interne. Support technique et gestion des incidents utilisateurs. Participation à l'analyse et à la structuration de données internes. Contribution à l'amélioration des outils numériques.",
       tags: ["Support IT", "Gestion incidents", "Analyse de données"],
       icon: Briefcase
@@ -50,7 +50,7 @@ const Experiences = () => {
       <div className="section-container">
         <div className="section-header">
           <h2 className="section-title">Expériences Professionnelles</h2>
-          <p className="section-subtitle">Mon parcours professionnel et mes réalisations</p>
+          <p className="section-subtitle">Mon parcours professionnel</p>
         </div>
         
         <div className="experience-grid">

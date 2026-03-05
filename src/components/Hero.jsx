@@ -9,8 +9,9 @@ const Hero = () => {
           <h1>KENGNE TUEGUEM Fresnel Grace</h1>
           <div className="subtitle">Étudiante Ingénieure Data</div>
           <p className="description">
-Passionnée par l’analyse de données, la modélisation prédictive et la visualisation, je souhaite contribuer à des projets innovants guidés par la donnée. Etudiante en Ingénierie de la Donnée de l’IMT Mines Albi, je suis ouverte à approfondir mes compétences dans tout domaine qui me sera confié et à relever de nouveaux défis avec rigueur et curiosité.          </p>
-          
+Étudiante ingénieure en double diplôme, actuellement en 2ᵉ année en spécialité Ingénierie de la Donnée, avec un fort interet pour le Big data et l’analyse de données, je recherche un stage me permettant de développer mes compétences et de contribuer activement à des projets data-driven. 
+Je suis motivée à intégrer une équipe dynamique où je pourrai mettre en pratique mes connaissances et apprendre de nouvelles compétences dans le domaine de la data.
+          </p>          
           <div className="hero-stats">
             <div className="stat-item">
               <div className="stat-number">2</div>
@@ -82,7 +83,7 @@ Passionnée par l’analyse de données, la modélisation prédictive et la visu
                 </div>
               </div>
               <p style={{marginTop: '1rem', fontSize: '0.9rem', color: 'var(--text-secondary)'}}>
-                Stage 4 mois dès avril 2026<br/>
+                Stage 4 à 5 mois dès avril 2026<br/>
                 Alternance 1 an dès septembre 2026
               </p>
             </div>

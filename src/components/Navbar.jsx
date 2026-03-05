@@ -20,9 +20,9 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
         <div className="nav-right">
           <ul className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
             <li><a href="#accueil" onClick={closeMenu}>Accueil</a></li>
+            <li><a href="#formations" onClick={closeMenu}>Formations</a></li>
             <li><a href="#projets" onClick={closeMenu}>Projets</a></li>
             <li><a href="#experiences" onClick={closeMenu}>Expériences</a></li>
-            <li><a href="#formations" onClick={closeMenu}>Formations</a></li>
             <li><a href="#competences" onClick={closeMenu}>Compétences</a></li>
             <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
           </ul>

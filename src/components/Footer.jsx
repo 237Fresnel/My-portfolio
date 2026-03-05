@@ -1,13 +1,17 @@
 import React from 'react';
-import { Linkedin, Github } from 'lucide-react';
+import { Linkedin, Github, Italic } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
         <p className="footer-text">
-          Toujours en apprentissage, toujours en création. Construisons des choses incroyables ensemble.
-        </p>
+  Toujours en apprentissage et en constante évolution, je conçois et développe des expériences modernes et performantes.
+  <br />
+  Construisons ensemble des projets ambitieux et innovants.
+  <br />
+  <i>Ce portfolio a été réalisé avec React et Next.js.</i>
+</p>
         <div className="footer-social">
           <a href="https://www.linkedin.com/in/fresnel-kengne-339647265" target="_blank" rel="noopener noreferrer" className="social-btn">
             <Linkedin size={20} />

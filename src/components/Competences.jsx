@@ -36,12 +36,12 @@ const Competences = () => {
       description: "La musique comme source d'inspiration et de créativité.",
       /*link: "https://spotify.com/placeholder" */
     },
-    /*{ 
+    { 
       icon: "📚", 
       text: "Lecture",
       description: "Passionnée par la littérature scientifique, les romans contemporains et les essais sur la technologie et l'innovation.",
-      link: "https://goodreads.com/placeholder" 
-    },*/
+      /*link: "https://goodreads.com/placeholder" */
+    },
     { 
       icon: "🍳", 
       text: "Cuisine",
