@@ -4,11 +4,11 @@ import { ExternalLink, CheckCircle } from 'lucide-react';
 const Formations = () => {
   const formations = [
     {
-      school: "IMT MINES ALBI",
+      school: "IMT Mines Albi",
       degree: "École d'ingénieur généraliste",
       location: "Albi, France",
       period: "2025 – 2027",
-      focus: "Ingénierie de la Donnée en double diplôme",
+      focus: "Ingénierie de la Donnée pour les Systèmes d'Information et Énergétiques",
       skills: ["Data Analysis", "Project Management", "Transition écologique"],
       courses: ["Machine Learning", "Analyse de données", "IA", "Optimisation", "Design Thinking"],
       link: "https://www.imt-mines-albi.fr/fr/integrer-une-formation/ingenieur-generaliste/option-ingenierie-de-la-donnee-pour-systemes-information-et-systemes-energetiques"
@@ -25,7 +25,7 @@ const Formations = () => {
     },
     {
       school: "Université de Yaoundé I",
-      degree: "Licence Mathématiques",
+      degree: "Licence en Mathématiques",
       location: "Yaoundé, Cameroun",
       period: "2020 – 2023",
       focus: "Mathématiques",

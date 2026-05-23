@@ -17,26 +17,26 @@ const Projects = () => {
       image: "/big-data.png"
     },
     {
+      title: "Projet de Visualisation de Données",
+      period: "2026",
+      description: "Création de tableaux de bord interactifs et visualisations avancées pour l'analyse exploratoire de grands ensembles de données. Utilisation de PowerBI et Python pour générer des insights actionnables et des rapports dynamiques.",
+      technologies: ["PowerBI", "Python", "Matplotlib", "Plotly", "Pandas"],
+      status: "En cours",
+      icon: BarChart3,
+      color: "#10b981",
+      link: "",
+      category: "personnel" 
+    },
+    {
       title: "Projet d'analyse de données",
       period: "2026",
-      description: "analyser les hits des dernières décennies pour dénicher les facteurs déterminants afin de faire un hit.",
+      description: "Analyse des hits des dernières décennies afin d’identifier les caractéristiques et tendances associées à leur succès à partir de données musicales et temporelles. Exploitation et analyse des données pour mettre en évidence les facteurs déterminants pouvant influencer le succès d’un morceau.",
       technologies: [ "Matplotlib", "Plotly", "Pandas", "sklearn"],
       status: "Terminé",
       icon: Award,
       color: "#4acff4",
       link: "https://colab.research.google.com/drive/18fPXEYYJ8aaLV6Lg93rYb8c9sGMEGjaI?authuser=3" ,
       category: "academique"
-    },
-    {
-      title: "Projet de Visualisation de Données",
-      period: "2025",
-      description: "Création de tableaux de bord interactifs et visualisations avancées pour l'analyse exploratoire de grands ensembles de données. Utilisation de PowerBI et Python pour générer des insights actionnables et des rapports dynamiques.",
-      technologies: ["PowerBI", "Python", "Matplotlib", "Plotly", "Pandas"],
-      status: "En cours",
-      icon: BarChart3,
-      color: "#10b981",
-      link: "https://app.powerbi.com/links/bxPCEtYpDU?ctid=c52528b4-09d5-422b-bde4-32b5b0271115&pbi_source=linkShare",
-      category: "personnel" 
     },
     {
       title: "Système d'Hypervision avec 360Visio",
@@ -53,7 +53,7 @@ const Projects = () => {
       title: "VSA - Visual Surveillance Algorithm",
       period: "2024 – 2025",
       description: "Développement d'outils Python pour la collecte et traitement d'images, extraction de données via OpenPose, intégration base de données et visualisations pour analyse comportementale avec génération d'alertes automatiques.",
-      technologies: ["Python", "OpenPose", "Computer Vision", "SQL", "Alertes"],
+      technologies: ["Python", "OpenPose", "Computer Vision", "SQL"],
       status: "Terminé",
       icon: Camera,
       color: "#6366f1",
@@ -62,8 +62,8 @@ const Projects = () => {
     },
     {
       title: "Modèle de Prédiction du Lupus",
-      period: "2024",
-      description: "Exploration et préparation de données médicales, modélisation supervisée et évaluation de modèle prédictif pour prédire la probabilité de survenue du lupus. Déploiement avec Flask.",
+      period: "2025",
+      description: "Exploration et préparation de données médicales, modélisation supervisée et évaluation de modèle prédictif pour prédire la probabilité de survenue du lupus. Déploiement en local avec Flask(Python).",
       technologies: ["Python", "Scikit-learn", "Flask", "ML"],
       status: "Terminé",
       icon: Brain,
@@ -89,8 +89,8 @@ const Projects = () => {
   <section id="projets" className="section">
     <div className="section-container">
       <div className="section-header">
-        <h2 className="section-title">Projets Académiques</h2>
-        <p className="section-subtitle">Projets data science et machine learning</p>
+        <h2 className="section-title">Projets</h2>
+        <p className="section-subtitle">Projets data science</p>
       </div>
 
       {/* Filtres - NOUVEAU */}

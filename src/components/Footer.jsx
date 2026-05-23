@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p className="footer-text">
-  Toujours en apprentissage et en constante évolution, je conçois et développe des expériences modernes et performantes.
+  Toujours en apprentissage et en constante évolution.
   <br />
   Construisons ensemble des projets ambitieux et innovants.
   <br />

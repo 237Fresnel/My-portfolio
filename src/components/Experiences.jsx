@@ -4,20 +4,12 @@ import { Book, Award, Briefcase, Target, Users } from 'lucide-react';
 const Experiences = () => {
   const experiences = [
     {
-      title: "Professeure de cours particuliers à domicile",
-      company: "Complétude, Toulouse",
-      period: "Depuis 10/2025",
-      description: "Accompagnement personnalisé d'élèves du primaire et secondaire avec adaptation des méthodes pédagogiques pour améliorer les résultats scolaires et la confiance en soi. Évaluation des besoins, définition d'objectifs pédagogiques et suivi régulier des progrès en lien avec les familles.",
-      tags: ["Pédagogie", "Suivi personnalisé", "Adaptation"],
-      icon: Book
-    },
-    {
-      title: "Secrétaire Générale Adjointe",
-      company: "ENSPY",
-      period: "2024 – 2025",
-      description: "Organisation, communication stratégique, gestion d'équipe et autonomie dans un environnement académique exigeant.",
-      tags: ["Leadership", "Communication", "Gestion d'équipe"],
-      icon: Users
+      title: "Stagiaire Data Analyst (Process Mining)",
+      company: "IMT Mines Albi (Projet INFINITY – MECAPROTEC)",
+      period: "04/2026 – aujourd’hui",
+      description: "Analyse de processus industriels à partir de données réelles dans le cadre d’activités de process mining, exploration et modélisation de flux de données afin d’identifier des patterns et anomalies, collaboration avec des équipes académiques et industrielles dans le cadre du projet INFINITY.",
+      tags: ["Process Mining", "Analyse de données", "Modélisation de données", "Détection d’anomalies"],
+      icon: Award
     },
     /*{
       title: "Stage Enseignement Mathématiques",
@@ -28,21 +20,29 @@ const Experiences = () => {
       icon: Award
     },*/
     {
-      title: "Stage Assistant Support Informatique & Opérations",
-      company: "Maison DG, Yaoundé",
-      period: "07/2024 – 08/2024",
-      description: "Découverte du fonctionnement global de l'entreprise et de son organisation interne. Support technique et gestion des incidents utilisateurs. Participation à l'analyse et à la structuration de données internes. Contribution à l'amélioration des outils numériques.",
-      tags: ["Support IT", "Gestion incidents", "Analyse de données"],
+      title: "Stage Assistant Gestion de données",
+      company: "Entreprise Maison DG, Yaoundé",
+      period: "06/2025 – 08/2025",
+      description: "Découverte du fonctionnement global de l'entreprise et de son organisation interne, participation à l'analyse et à la structuration de données internes, contribution à l'amélioration des outils numériques, accompagnement technique et gestion des incidents utilisateurs. ",
+      tags: ["Analyse de données","Support technique", "Gestion incidents" ],
       icon: Briefcase
     },
     {
+      title: "Professeure de cours particuliers à domicile",
+      company: "Auto-entrepreneur",
+      period: "Depuis 09/2021",
+      description: "Accompagnement personnalisé d'élèves du primaire et secondaire avec adaptation des méthodes pédagogiques pour améliorer les résultats scolaires et la confiance en soi. Évaluation des besoins, définition d'objectifs pédagogiques et suivi régulier des progrès en lien avec les familles.",
+      tags: ["Pédagogie", "Suivi personnalisé", "Adaptation"],
+      icon: Book
+    }
+    /*{
       title: "Soutien Scolaire",
       company: "Auto-entrepreneur, Yaoundé",
       period: "09/2021 – 06/2025",
       description: "Pour des élèves de 6e à la Terminale en Mathématiques, Physique, Chimie et Informatique. Plus de 10 élèves accompagnés.",
       tags: ["Multi-matières", "Passion", "Rigueur"],
       icon: Target
-    }
+    }*/
   ];
 
   return (

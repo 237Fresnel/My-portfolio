@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="contact-cta">
             <h2 className="cta-title">Travaillons Ensemble</h2>
             <p className="cta-description">
-              Je suis actuellement à la recherche d'un stage de 4 mois à partir d'avril 2026 et d'une alternance d'1 an dès septembre 2026. N'hésitez pas à me contacter pour discuter de vos projets !
+              Je suis actuellement d'une alternance d'1 an dès septembre 2026. N'hésitez pas à me contacter pour discuter de vos projets !
             </p>
             <div className="cta-buttons">
-              <a href="mailto:fresnel.kengne_tueguem@mines-albi.fr" className="cta-btn cta-btn-primary">
+              <a href="mailto:tueguemfresnel@gmail.com" className="cta-btn cta-btn-primary">
                 <Mail size={20} />
                 M'envoyer un email
               </a>
@@ -28,7 +28,7 @@ const Contact = () => {
               <h3 style={{fontSize: '1.8rem', marginBottom: '1.5rem', color: 'var(--text-primary)', fontFamily: 'Space Grotesk, sans-serif'}}>Informations de Contact</h3>
               <div className="contact-item">
                 <Mail size={20} />
-                <span>fresnel.kengne_tueguem@mines-albi.fr</span>
+                <span>tueguemfresnel@gmail.com</span>
               </div>
               <div className="contact-item">
                 <Phone size={20} />

@@ -3,24 +3,26 @@ import { Database, Brain, Terminal, Sparkles, Book, Layers } from 'lucide-react'
 
 const Competences = () => {
   const competences = {
-    "Analyse de données": {
-      items: ["SQL (intermédiaire)", "Python (pandas, numpy, sklearn)", "PowerBI(Tableaux basiques)", "Excel", "Rédaction scientifique"],
+    "Data": {
+      items: ["SQL", "Python", "PowerBI","SQL", "NoSQL","Machine Learning","Data Mining"],
       icon: Database
     },
+    /*
     "Machine Learning": {
       items: ["Feature engineering", "Classification supervisée", "Classification non supervisée", "Modélisation prédictive", "Déploiement (Flask)"],
       icon: Brain
-    },
+    },*/
     "Outils & Technologies": {
-      items: ["Jupyter", "VSCode", "Git/GitHub", "Overleaf (LaTeX)", "Django (débutante)", "MySQL"],
+      items: ["Hadoop", "MongoDB", "VSCode", "Git", "Docker", "Django","Java", "MySQL"],
       icon: Terminal
     },
+    /*
     "Langages de programmation": {
       items: ["Java", "Python", "C", "Prolog", "JavaScript"],
       icon: Layers
-    },
+    },*/
     "Soft Skills": {
-      items: ["Autonome", "Résolution de problèmes", "Communication claire", "Travail en équipe", "Organisation", "Curiosité"],
+      items: ["Autonomie", "Travail en équipe", "Rigueur", "Curiosité"],
       icon: Sparkles
     },
     "Langues": {
@@ -33,15 +35,15 @@ const Competences = () => {
     { 
       icon: "🎵", 
       text: "Musique",
-      description: "La musique comme source d'inspiration et de créativité.",
+      description: "Chant",
       /*link: "https://spotify.com/placeholder" */
     },
-    { 
+    /*{ 
       icon: "📚", 
       text: "Lecture",
       description: "Passionnée par la littérature scientifique, les romans contemporains et les essais sur la technologie et l'innovation.",
-      /*link: "https://goodreads.com/placeholder" */
-    },
+      link: "https://goodreads.com/placeholder"
+    },*/
     { 
       icon: "🍳", 
       text: "Cuisine",

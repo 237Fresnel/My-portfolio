@@ -9,16 +9,16 @@ const Hero = () => {
           <h1>KENGNE TUEGUEM Fresnel Grace</h1>
           <div className="subtitle">Étudiante Ingénieure Data</div>
           <p className="description">
-Étudiante ingénieure en double diplôme, actuellement en 2ᵉ année en spécialité Ingénierie de la Donnée, avec un fort interet pour le Big data et l’analyse de données, je recherche un stage me permettant de développer mes compétences et de contribuer activement à des projets data-driven. 
-Je suis motivée à intégrer une équipe dynamique où je pourrai mettre en pratique mes connaissances et apprendre de nouvelles compétences dans le domaine de la data.
+Étudiante ingénieure en double diplôme, actuellement en Master 1 en Ingénierie de la Donnée, avec un fort intérêt pour le Big Data et l’analyse de données, je recherche une alternance me permettant d’acquérir de nouvelles compétences et d’évoluer dans un environnement orienté data. 
+Motivée, je souhaite intégrer une équipe dynamique afin d’apprendre et de mettre en pratique mes connaissances.
           </p>          
           <div className="hero-stats">
             <div className="stat-item">
-              <div className="stat-number">2</div>
+              <div className="stat-number">3</div>
               <div className="stat-label">Projets Data</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">3</div>
+              <div className="stat-number">2</div>
               <div className="stat-label">Expériences</div>
             </div>
             <div className="stat-item">
@@ -48,7 +48,7 @@ Je suis motivée à intégrer une équipe dynamique où je pourrai mettre en pra
             <div className="contact-info">
               <div className="contact-item">
                 <Mail size={20} />
-                <span>fresnel.kengne_tueguem@mines-albi.fr</span>
+                <span>tueguemfresnel@gmail.com</span>
               </div>
               <div className="contact-item">
                 <Phone size={20} />
@@ -69,7 +69,7 @@ Je suis motivée à intégrer une équipe dynamique où je pourrai mettre en pra
               </div>
 
               <div className="availability-badge">
-                Disponible pour stage/alternance
+                Disponible pour alternance 
                 <div className="alternance-tooltip">
                   <div className="tooltip-title">
                     <Info size={18} />
@@ -78,13 +78,12 @@ Je suis motivée à intégrer une équipe dynamique où je pourrai mettre en pra
                   <div className="tooltip-content">
                     <div className="tooltip-item">Dernière semaine de Toussaint + 3 prochaines semaines en entreprise</div>
                     <div className="tooltip-item">Semaines de Noël + semaine suivante en entreprise</div>
-                    <div className="tooltip-item">Stage PFE de 6-7 mois à partir de février 2027</div>
+                    <div className="tooltip-item">Stage PFE de 6-7 mois en entreprise à partir de février 2027</div>
                   </div>
                 </div>
               </div>
               <p style={{marginTop: '1rem', fontSize: '0.9rem', color: 'var(--text-secondary)'}}>
-                Stage 4 à 5 mois dès avril 2026<br/>
-                Alternance 1 an dès septembre 2026
+                Alternance 1 an dès le 31 août 2026
               </p>
             </div>
           </div>

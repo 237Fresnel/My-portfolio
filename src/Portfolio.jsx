@@ -17,7 +17,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className={`portfolio ${isDarkMode ? 'dark' : 'light'}`}>
+    <div className={`portfolio ${isDarkMode ? 'light' : 'dark'}`}>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Hero />
       <Formations />
