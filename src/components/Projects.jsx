@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Projet de Big data",
       period: "2026",
-      description: "Plateforme Big Data d'analyse de transport urbain simulant 500 000 trajets sur 5 villes françaises, combinant MongoDB, Cassandra et Apache Spark pour le stockage et l'analyse distribuée, exposée via une API FastAPI et visualisée sur un dashboard React — conteneurisée avec Docker en local et déployée gratuitement sur Atlas, Render et Vercel.",
+      description: "Plateforme Big Data d'analyse de transport urbain simulant 500 000 trajets sur 5 villes françaises, combinant Hadoop, Cassandra et Apache Spark pour le stockage et l'analyse distribuée, exposée via une API Flask et visualisée sur un dashboard React — conteneurisée avec Docker en local et déployée gratuitement sur Render et Vercel.",
       technologies: [ "MongoDB", "Cassandra", "FastAPI", "Apache Spark","Python", "Docker"],
       status: "Terminé",
       icon: Database,
